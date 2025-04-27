@@ -24,8 +24,3 @@ class Profundidade:
                         self.fronteira.empilhar(a.cidade)
                         Profundidade.buscar(self) # Recursividade até que todas as cidades sejam visitadas
         self.fronteira.desempilhar()
-
-from mapa import Mapa
-mapa = Mapa()
-profundidade = Profundidade(mapa.porto_uniao, mapa.curitiba)
-profundidade.buscar()
