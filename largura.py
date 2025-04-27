@@ -14,10 +14,10 @@ class Largura:
         primeiro = self.fronteira.get_primeiro()
         if primeiro == self.objetivo:
             self.achou = True
-            print(f"Achou: {primeiro.nome}")
+            print(f"Largura: Achou -> {self.objetivo.nome}")
         else:
             self.fronteira.desenfileirar()
-            for a in primeiro.adjacentes:
+            for a in primeiro.adjacentes: # Percorre todos os adjacentes da primeira cidade na fila
                 if not a.cidade.visitado:
                     a.cidade.visitado = True
                     self.fronteira.enfileirar(a.cidade)

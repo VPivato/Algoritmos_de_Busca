@@ -1,4 +1,5 @@
 # Implementação do conceito de fila circular
+# Utilizada na implementação da busca em profundidade
 class Fila:
     def __init__(self, tamanho):
         self.tamanho = tamanho

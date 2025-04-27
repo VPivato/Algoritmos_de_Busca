@@ -15,7 +15,7 @@ class Profundidade:
 
         if topo == self.objetivo:
             self.achou = True
-            print(f"Achou: {topo.nome}")
+            print(f"Profundidade: Achou -> {self.objetivo.nome}")
         else:
             for a in topo.adjacentes: # Percorre todos os adjacentes da cidade que está no topo
                 if not self.achou:

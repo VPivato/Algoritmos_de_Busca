@@ -1,3 +1,4 @@
+# Utilizada na implementação da busca em profundidade
 class Pilha:
     def __init__(self, tamanho):
         self.tamanho = tamanho
