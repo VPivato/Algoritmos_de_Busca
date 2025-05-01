@@ -1,4 +1,4 @@
-from pilha import Pilha
+from .pilha import Pilha
 
 # Busca sem informação, busca em profundidade
 class Profundidade:

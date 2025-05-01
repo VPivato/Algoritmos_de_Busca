@@ -1,4 +1,4 @@
-from fila import Fila
+from .fila import Fila
 
 # Busca sem informação, busca em largura
 class Largura:

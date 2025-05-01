@@ -1,4 +1,4 @@
-from vetor_ordenado_A_estrela import VetorOrdenadoAEstrela
+from .vetor_ordenado_A_estrela import VetorOrdenadoAEstrela
 
 """Utiliza tanto a distância em linha reta, quanto a distância pela estrada para calcular
    o nó mais desejável. Essa é a unica diferença em relação a busca gulosa"""

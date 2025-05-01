@@ -1,12 +1,12 @@
 from mapa import Mapa
 
 # Busca sem informação
-from profundidade import Profundidade
-from largura import Largura
+from busca_sem_informacao.profundidade import Profundidade
+from busca_sem_informacao.largura import Largura
 
 # Busca com informação
-from busca_gulosa import BuscaGulosa
-from busca_A_estrela import BuscaAEstrela
+from busca_com_informacao.busca_gulosa import BuscaGulosa
+from busca_com_informacao.busca_A_estrela import BuscaAEstrela
 
 """Busca sem informação: Não é recomendável utilizar para buscar a rota entre duas cidades, por exemplo.
    Mais usado em cenários onde se precise percorrer todos os nós de um grafo, ou verificar se um nó existe.

@@ -1,4 +1,4 @@
-from vetor_ordenado_gulosa import VetorOrdenadoGulosa
+from .vetor_ordenado_gulosa import VetorOrdenadoGulosa
 
 """Utiliza apenas da heurística (aproximação) para escolher a desejabilidade de cada nó,
    nesse caso, é a distância em linha reta até o objetivo. Trata-se de uma aproximação,
